@@ -1,0 +1,8 @@
+[package]
+name = "cuda-decision"
+version = "0.1.0"
+edition = "2021"
+description = "Decision engine — multi-criteria decision making, utility functions, risk assessment, and option ranking with confidence"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
